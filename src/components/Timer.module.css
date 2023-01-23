@@ -1,0 +1,35 @@
+.timer__container {
+  margin-top: 50px;
+  font-size: 50px;
+  font-weight: 500;
+}
+.timer__options button {
+  padding: 10px 30px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.timer__options {
+  width: 300px;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.timer__options button:nth-child(2) {
+  background-color: blueviolet;
+  color: #fff;
+}
+.timer__container input {
+  outline: none;
+  border: none;
+  text-align: center;
+  font-size: 50px;
+  width: 70px;
+}
+.timer__container div{
+  width: 100px;
+  height: 70px;
+  display: inline-block;
+  text-align: center;
+}

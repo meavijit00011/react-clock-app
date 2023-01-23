@@ -1,0 +1,32 @@
+.header__container{
+    margin-top: -10px;
+    background-color: #F7F9F9;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    width: 100vw;
+    color: #2E4053;
+    letter-spacing: 2px;
+}
+.options{
+    margin: auto;
+    margin-top: 30px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.options button{
+    padding: 5px 15px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.active__option{
+    background-color: #239B56;
+    color: #fff;
+}

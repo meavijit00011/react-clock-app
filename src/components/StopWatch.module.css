@@ -1,0 +1,35 @@
+.time__container{
+    margin: 50px 0 0 10px;
+    font-size: 60px;
+    font-weight: 500;
+}
+.stopwatch__options{
+    width: 250px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.stopwatch__options button{
+ outline: none;
+ border: none;
+ padding: 10px 30px;
+ cursor: pointer;
+}
+.stopwatch__options button:nth-child(2){
+    background-color: blueviolet;
+    color: #fff;
+}
+.lap__details__container{
+    max-height: 200px;
+    overflow:scroll;
+    margin-bottom: 20px;
+}
+.lap__details__container::-webkit-scrollbar {
+    display: none;
+  }
+.lap__details {
+    width: 100px;
+    margin:auto;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
